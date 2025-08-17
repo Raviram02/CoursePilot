@@ -27,18 +27,18 @@ function SideBar() {
       icon: <HiOutlineSquare3Stack3D />,
       path: "/dashboard/explore",
     },
-    {
-      id: 3,
-      name: "Upgrade",
-      icon: <HiOutlineShieldCheck />,
-      path: "/dashboard/upgrade",
-    },
-    {
-      id: 4,
-      name: "Logout",
-      icon: <TbLogout />,
-      path: "/dashboard/logout",
-    },
+    // {
+    //   id: 3,
+    //   name: "Upgrade",
+    //   icon: <HiOutlineShieldCheck />,
+    //   path: "/dashboard/upgrade",
+    // },
+    // {
+    //   id: 4,
+    //   name: "Logout",
+    //   icon: <TbLogout />,
+    //   path: "/dashboard/logout",
+    // },
   ];
   const path = usePathname();
   return (

@@ -1,14 +1,17 @@
-import Logo from '@/app/_components/Logo'
-import { UserButton } from '@clerk/nextjs'
-import React from 'react'
+import Logo from "@/app/_components/Logo";
+import { UserButton, useUser } from "@clerk/nextjs";
+import React from "react";
+import { IoLogoIonitron } from "react-icons/io5";
 
-function Header() {
+function Header({ display = false }) {
+  const { user } = useUser({});
   return (
-    <div className='flex justify-end items-center p-5 shadow-sm'>
-        {/* <Logo /> */}
-        <UserButton />
+    <div className={`flex ${display? 'justify-between' : 'justify-end'} items-center p-5 shadow-sm`}>
+      {display && <Logo />}
+      {/* <IoLogoIonitron className="text-3xl text-primary"/> */}
+      {user && <UserButton />}
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

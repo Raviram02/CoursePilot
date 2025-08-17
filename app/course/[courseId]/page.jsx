@@ -1,8 +1,8 @@
 "use client";
-import Header from "@/app/_components/Header";
 import ChapterList from "@/app/create-course/[courseId]/_components/ChapterList";
 import CourseBasicInfo from "@/app/create-course/[courseId]/_components/CourseBasicInfo";
 import CourseDetail from "@/app/create-course/[courseId]/_components/CourseDetail";
+import Header from "@/app/dashboard/_components/Header";
 import { db } from "@/configs/db";
 import { CourseList } from "@/configs/schema";
 import { eq } from "drizzle-orm";
@@ -32,7 +32,7 @@ function Course() {
 
   return (
     <div>
-      <Header />
+      <Header display={true}/>
       <div className="px-10 p-10 md:px-20 lg:px-44">
         <CourseBasicInfo course={course} edit={false}/>
         <CourseDetail course={course}/>

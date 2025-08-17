@@ -11,7 +11,7 @@ function CreateCourseLayout({ children }) {
         value={{ userCourseInput, setUserCourseInput }}
       >
         <>
-          <Header />
+          <Header display={true}/>
           {children}
         </>
       </UserInputContext.Provider>
