@@ -1,8 +1,10 @@
-📚 CoursePilot
+📚 #CoursePilot
 
-CoursePilot is an AI-powered course generator that creates structured tutorials tailored to user inputs. It allows users to specify the number of chapters and course duration, and then automatically generates detailed course content with code examples (where applicable). The platform integrates external resources like YouTube videos and images to provide a rich and interactive learning experience.
+**CoursePilot** is an AI-powered course generator that creates structured tutorials tailored to user inputs. It allows users to specify the number of chapters and course duration, and then automatically generates detailed course content with code examples (where applicable). The platform integrates external resources like YouTube videos and images to provide a rich and interactive learning experience.
 
-🔑 Features
+---
+
+🔑 ##Features
 
 User login and authentication (Clerk)
 
@@ -18,14 +20,16 @@ Manage and store course data with Drizzle ORM and PostgreSQL
 
 Simple and interactive user interface
 
-🛠️ Tech Stack
+---
 
-Frontend: Next.js, React, TailwindCSS
+🛠️ ##Tech Stack
 
-Backend: Node.js, Drizzle ORM, PostgreSQL
+**Frontend**: Next.js, React, TailwindCSS
 
-AI & APIs: Gemini 2.5 Flash API, YouTube API
+**Backend**: Node.js, Drizzle ORM, PostgreSQL
 
-Authentication: Clerk
+**AI & APIs**: Gemini 2.5 Flash API, YouTube API
 
-Cloud & Media Storage: Cloudinary
+**Authentication**: Clerk
+
+**Cloud & Media Storage**: Cloudinary
