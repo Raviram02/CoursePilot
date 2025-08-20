@@ -1,10 +1,10 @@
-📚 #CoursePilot
+#📚 CoursePilot
 
 **CoursePilot** is an AI-powered course generator that creates structured tutorials tailored to user inputs. It allows users to specify the number of chapters and course duration, and then automatically generates detailed course content with code examples (where applicable). The platform integrates external resources like YouTube videos and images to provide a rich and interactive learning experience.
 
 ---
 
-🔑 ##Features
+##🔑 Features
 
 User login and authentication (Clerk)
 
@@ -22,7 +22,7 @@ Simple and interactive user interface
 
 ---
 
-🛠️ ##Tech Stack
+##🛠️ Tech Stack
 
 **Frontend**: Next.js, React, TailwindCSS
 
