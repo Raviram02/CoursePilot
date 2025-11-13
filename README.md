@@ -24,7 +24,7 @@ Simple and interactive user interface
 
 ## 🛠️ Tech Stack
 
-**Frontend**: Next.js, React, TailwindCSS
+**Frontend**: Next.js, TailwindCSS
 
 **Backend**: Node.js, Drizzle ORM, PostgreSQL
 
